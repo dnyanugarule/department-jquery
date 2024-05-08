@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Department Info</title>
+    <!-- Include jQuery Mobile CSS and JS -->
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    <!-- Include custom CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <!-- Main Page with Full-Screen Image and Overlay -->
+    <div data-role="page" id="home" class="custom-page">
+        <div data-role="content">
+            <!-- Full-screen image with centered overlay -->
+            <img src="main.jpeg" alt="Main Page" class="fullscreen-image">
+            <div class="overlay">
+                <!-- Department Info header text -->
+                <h1 style="color:rgba(249, 8, 48, 0.757); font-size: 70px;">Department Info</h1>
+                <!-- Large font size -->
+
+                <!-- Grid of Department Buttons -->
+                <div class="ui-grid-d"> <!-- Centered grid -->
+                    <div class="ui-block-a"><a href="#it" class="ui-btn">IT</a></div>
+                    <div class="ui-block-b"><a href="#comp" class="ui-btn">COMP</a></div>
+                    <div class="ui-block-c"><a href="#entc" class="ui-btn">ENTC</a></div>
+                    <div class="ui-block-d"><a href="#mech" class="ui-btn">MECH</a></div>
+                    <div class="ui-block-e"><a href="#elec" class="ui-btn">ELEC</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Department Pages -->
+    <!-- IT Department -->
+    <div data-role="page" id="it" class="department-page">
+        <div data-role="content">
+            <!-- Full-sized image with centered department name and button -->
+            <img src="it.jpeg" alt="IT Department" class="department-image">
+            <div class="department-overlay">
+                <!-- Department name centered in the middle -->
+                <h2 style="color:white; font-size: 70px;">Information Technology</h2>
+                <!-- Button positioned under the department name -->
+                <div class="department-list">
+                    <ul>
+                        <li>About Us</li>
+                        <li><a href="#vision-mission">Vision, Mission and PEOs</a></li>
+                        <li><a href="#learning-outcomes">Learning Outcomes</a></li>
+                        <li><a href="#faculty">Faculty</a></li>
+                        <li><a href="#professional-associations">Professional Associations</a></li>
+                        <li><a href="#students-desk">Students Desk</a></li>
+                        <li><a href="#co-curricular">Co-Curricular Activities</a></li>
+                        <li><a href="#research-consultancy">Research & Consultancy</a></li>
+                        <li><a href="#learning-infrastructure">Learning Infrastructure</a></li>
+                        <li><a href="#student-achievements">Student Achievements</a></li>
+                        <li><a href="#placements">Placements</a></li>
+                    </ul>
+                </div>
+
+                <a href="#home" class="department-button">Back to Home</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- COMP Department -->
+    <div data-role="page" id="comp" class="department-page">
+        <div data-role="content">
+            <!-- Full-sized image with centered department name and button -->
+            <img src="comp.jpeg" alt="COMP Department" class="department-image">
+            <div class="department-overlay">
+                <h2 style="color:white; font-size: 36px;">Computer Engineering</h2>
+                <a href="#home" class="department-button">Back to Home</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ENTC Department -->
+    <div data-role="page" id="entc" class="department-page">
+        <div data-role="content">
+            <!-- Full-sized image with centered department name and button -->
+            <img src="entc_image.jpg" alt="ENTC Department" class="department-image">
+            <div class="department-overlay">
+                <h2 style="color:white; font-size: 70px;">Electronics & Telecommunication</h2>
+                <a href="#home" class="department-button">Back to Home</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- MECH Department -->
+    <div data-role="page" id="mech" class="department-page">
+        <div data-role="content">
+            <!-- Full-sized image with centered department name and button -->
+            <img src="mech_image.jpg" alt="Mechanical Engineering" class="department-image">
+            <div class="department-overlay">
+                <h2 style="color:white; font-size: 70px;">Mechanical Engineering</h2>
+                <a href="#home" class="department-button">Back to Home</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ELEC Department -->
+    <div data-role="page" id="elec" class="department-page">
+        <div data-role="content">
+            <!-- Full-sized image with centered department name and button -->
+            <img src="elec_image.jpg" alt="Electrical Engineering" class="department-image">
+            <div class="department-overlay">
+                <h2 style="color:white; font-size: 70px;">Electrical Engineering</h2>
+                <a href="#home" class="department-button">Back to Home</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

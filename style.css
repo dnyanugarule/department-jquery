@@ -1,0 +1,93 @@
+/* Full-screen image with relative positioning for overlay */
+.fullscreen-image {
+    width: 100%;
+    height: auto;
+    /* Maintain aspect ratio */
+    position: relative;
+    /* Required for child elements to overlay */
+}
+
+/* Overlay for centering text and grid on the full-screen image */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* To center elements */
+    flex-direction: column;
+    /* Vertical stacking */
+    justify-content: center;
+    /* Center vertically */
+    align-items: center;
+    /* Center horizontally */
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Styling for the grid buttons */
+.ui-grid-d a {
+    background-color: #fd96a2;
+    /* Deep purple for the buttons */
+    color: rgb(244, 164, 164);
+    text-transform: uppercase;
+    /* Capitalize text */
+    text-align: center;
+    padding: 70px;
+    /* Padding for the button */
+    border-radius: 5px;
+    /* Rounded corners */
+    font-size: 50px;
+    /* Font size for the buttons */
+}
+
+/* Department page with a full-sized image and centered content */
+.department-page {
+    background: #0b0b0b;
+    /* Blue background for department pages */
+    color: white;
+}
+
+/* Department image with centered text and button */
+.department-image {
+    width: 100%;
+    height: auto;
+    /* Maintain aspect ratio */
+    position: relative;
+}
+
+.department-overlay {
+    position: absolute;
+    /* To center content on the image */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Centered text and button */
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent background */
+    padding: 70px;
+    /* Padding for the overlay */
+}
+
+/* Department button with larger font and a vibrant color */
+.department-button {
+    background-color: #f32b11;
+    /* Vibrant orange for the button */
+    color: rgb(227, 14, 14);
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px;
+    /* Extra padding */
+    border-radius: 8px;
+    /* Larger rounded corners */
+    font-size: 16px;
+    /* Larger font size */
+    margin-top: 60px;
+    /* Space above the button */
+}
+
+.department-list {
+    font-size: 30px;
+    color: antiquewhite;
+}
